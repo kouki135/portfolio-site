@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- 記載番号：2 -->
+    <title>GAME CONNECT（ゲーマー同士のマッチングアプリ）</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="p-work">
+    <header id="header" class="header">
+      <div class="header__logo">
+          <h1>
+            <a href="../">
+              <!-- 記載番号：1 -->
+              <span class="header__logo-title">Imamura Kouki</span>
+              <span class="header__logo-sub">Portfolio</span>
+            </a>
+          </h1>
+        </div>
+        <div class="header__hamburger">
+          <i></i>
+        </div>
+        <nav class="header__gnav">
+          <ul class="header__gnav-list">
+            <li class="header__gnav-item"><a href="../#a-profile">PROFILE</a></li>
+            <li class="header__gnav-item"><a href="../#a-skill">SKILL</a></li>
+            <li class="header__gnav-item"><a href="../#a-works">WORKS</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="p-work-firstview">
+        <div class="section-inner">
+          <!-- 記載番号：2（記載番号2は5行目にもあるので気をつけてください） -->
+          <h2>GAME CONNECT（ゲーマー同士のマッチングアプリ）</h2>
+          <div class="p-work-firstview__pict obj-fit-img">
+            <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+            <img src="../images/work/02/4d6d17e659656739d12421c674071568.png" class="show-pc">
+            <!-- images/02に配置した、オリジナルアプリの画像（SP版）のパスを記載する -->
+            <img src="../images/work/02/pict-work02-firstview_sp.jpg" class="show-sp">
+          </div>
+          <div class="p-work-firstview__text-area">
+            <h3 class="p-work-firstview__text-titile">開発環境</h3>
+            <!-- 記載番号：3 -->
+            <p class="p-work-firstview__text">Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code</p>
+            <!-- 記載番号：4 -->
+            <p class="p-work-firstview__text-link"><a href="https://github.com/kouki135/game_connect" target="_blank">https://github.com/XXXXXX/xxxxxx</a></p>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-summary">
+        <div class="section-inner">
+          <ul class="p-work-summary__list">
+            <li class="p-work-summary__item">
+              <h3>概要</h3>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>制作時間</th>
+                  <!-- 記載番号：5 -->
+                  <td>80時間</td>
+                </tr>
+                <tr>
+                  <th>URL</th>
+                  <!-- 記載番号：6 -->
+                  <td><a href="https://game-connect-37408.herokuapp.com/" target="_blank">http://hoge.heroku.com</a></td>
+                </tr>
+                <tr>
+                  <th>ID</th>
+                  <!-- 記載番号：7 -->
+                  <td>admin</td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <!-- 記載番号：8 -->
+                  <td>2222</td>
+                </tr>
+              </table>
+            </li>
+            <li class="p-work-summary__item">
+              <h3>動作テスト</h3>
+              <h4>テスト用アカウント</h4>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>mail</th>
+                  <!-- 記載番号：9 -->
+                  <td>111111@gmail.com</td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <!-- 記載番号：10 -->
+                  <td>a11111</td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-outline">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OUTLINE<span>アプリケーションの概要</span></h2>
+          </div>
+          <div class="contents">
+            <!-- 記載番号：11 -->
+            <div class="p-work-outline__text">
+              <p>
+                オリジナルアプリケーションとして、ゲーム仲間を探すアプリケーションを開発しました。
+                <br>
+                主な機能は、ユーザー登録機能、どんなゲームをどのように一緒にプレイしたいかを呼びかける投稿機能、ユーザー間でコミュニケーションを取るためのチャット機能です。
+              </p>
+              <p>
+                トップページにアクセスすると、トップバーにはユーザー登録ボタン、ログインボタン、ユーザー一覧へのリンクが表示され、サイドバーには投稿ボタン、メインスペースには投稿された内容がユーザー名と共に一覧で表示されています。ユーザー登録後にはトップバーへはチャットページへのリンクが出現し、ログインボタンはログアウトボタンへ、新規登録ボタンは自身のユーザー登録詳細表示画面へ遷移するユーザー名のボタンに変化します。
+              </p>
+              <p>
+                サイドバーの投稿ボタンから投稿フォームへ遷移し、ゲームタイトルとフレンド募集の概要を記入することができます。投稿後はトップページへ遷移し自身の投稿にだけ編集、削除ボタンが表示されます。
+              </p>
+              <p>
+                チャットページではサイドバーの投稿ボタンがチャット作成ボタンへと変化しその下には作成済みのチャットルームが表示されます。チャット作成ボタンからチャットルーム作成ページへ遷移し、プルダウンから自身を除く現在登録されているユーザーニックネームから1名を選択し、チャットルームを作成することができます。チャットルーム作成後は相手ユーザーのニックネームがルーム名となっていて、クリックすることでチャットルームへ遷移し、メッセージのやり取りをすることができます。また、ルームには削除ボタンが出現し、クリックにてそのルームを削除することもできます。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-about">
+        <div class="section-inner">
+          <ul class="p-work-about__list">
+            <li class="p-work-about__item">
+              <h3>開発に至った経緯</h3>
+              <!-- 記載番号：12 -->
+              <div class="p-work-about__item-block">
+                <p>
+                  私は様々なゲームを趣味としてプレイしていますが最近は色々とジャンルも増えてyoutubeや在宅時間の増加などの影響もあり興味のあるゲームの幅も広がってきました。
+                </p>
+                <p>
+                  しかし知り合いや周りには一緒にできる人がいないゲームも多く、SNSなどで探す場合も効果はあまり高くないと感じました。
+                </p>
+                <p>
+                  そこでゲームの友達探しに特化したコミュニケーションアプリの作成をしたいと考えました。
+                </p>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>開発で工夫したこと</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <div class="p-work-about__item-block-pict obj-fit-img">
+                  <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
+                  <img src="../images/work/02/79c4d1b224177072f73982a46b384962.png">
+                </div>
+                <!-- 記載番号：13 -->
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    1点目がトップバーとサイドバーを基本的には固定し、トップバーには各主要なページに遷移できるリンクを、サイドバーにはそのページにて選択するボタンなどを設置することで使い勝手を意識した作りにしたことです。
+                  </p>
+                  <p>
+                    2点目はユーザー詳細画面から直接チャットルームを作成できるようにしたことです。こうすることでユーザー詳細画面からコンタクトを取りたくなった場合にチャットルームを経由せずにワンクリックで直接ルームの作成がでるようになり、使いやすくできたと思います。
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>今後実装したいと思っていること</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <!-- <div class="p-work-about__item-block-pict obj-fit-img"> -->
+                  <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
+                  <!-- <img src="../images/work/02/pict-work02-about-dammy.jpg"> -->
+                <!-- </div> -->
+                <!-- 記載番号：14 -->
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    現段階で実装したいと考えている機能は5つあります。
+                  </p>
+                  <p>
+                    1点目は検索機能です。投稿数が多くなればなるほどどんな応募があるか探しにくくなるのでユーザーが見たい応募内容を絞り込めるようにしたいと考えています。
+                  </p>
+                  <p>
+                    2点目は投稿へのコメント機能です。チャット機能は実装済みですがよりコミュニケーションが取りやすい機能だと考えています。
+                  </p>
+                  <p>
+                    3点目はユーザーフォロー機能です。興味のある相手をフォローすることで動向を確認しやすくしたり相手への意思表示がよりしやすくなると考えています。
+                  </p>
+                  <p>
+                    4点目は投稿へのお気に入り登録機能です。こちらもコメントした投稿の反応を後追いしやすくしたり気になった投稿を後で確認しやすくしたりするためにあった方が良い機能だと考えています。
+                  </p>
+                  <p>
+                    5点目はメッセージの通知機能です。チャットにて連絡を取り合う際に通知があれば気付きやすくなるため円滑なコミュニケーションの助けになると考えています。
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-others">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OTHERS<span>その他実績</span></h2>
+          </div>
+          <div class="contents">
+            <ul class="p-work-others__list">
+              <li class="p-work-others__item">
+                <div class="p-work-others__item-pict">
+                  <!-- images/01に配置した、FURIMAの画像（PC版）のパスを記載する -->
+                  <a href="01.html" style="background-image:url('../images/work/01/81295ffb6bf375c62a89785d4b175ee7.jpg');"></a>
+                </div>
+                <div class="p-work-others__item-text-block">
+                  <!-- 記載番号：15 -->
+                  <h3>FURIMA（フリマアプリ）</h3>
+                  <!-- 記載番号：16 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code </p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="01.html" class="button">More</a>
+                </div>
+              </li>
+              <li class="p-work-others__item">
+                <div class="p-work-others__item-pict">
+                  <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+                  <a href="02.html" style="background-image:url('../images/work/02/4d6d17e659656739d12421c674071568.png');"></a>
+                </div>
+                <div class="p-work-others__item-text-block">
+                  <!-- 記載番号：17 -->
+                  <h3>GAME CONNECT（ゲーマー同士のマッチングアプリ）</h3>
+                  <!-- 記載番号：18 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code </p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="02.html" class="button">More</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- 記載番号：1 -->
+    <footer id="footer" class="footer"><p>&copy; Imamura Kouki.</p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/ofi.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+  </body>
+</html>
